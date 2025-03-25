@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+*{
+    font-family: 'Poppins',sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#Lbody{
+    background: linear-gradient(to right,rgb(255, 179, 192),rgb(248, 181, 192),rgb(248, 194, 203));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    width: 100%;
+    max-width: 400px;
+    background: #fff;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    color: #333;
+    text-align: center;
+    margin-bottom: 40px;
+}
+h1 span{
+    color: rgb(250, 93, 119);
+}
+.input1{
+    margin-bottom: 15px;
+}
+label{
+    display: block;
+    margin-bottom: 5px;
+}
+input{
+    width: 100%;
+    padding: 5px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+input:focus{
+    border-color: #ec4d68;
+    outline: none;
+}
+.Forgot{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin: 10px 0px;
+}
+.Forgot input{
+    position: relative;
+    right: 15px;
+}
+.Forgot a{
+    color: rgb(236, 77, 104);
+    font-weight: 600;
+    font-size: larger;
+    margin-top: 20px;
+}
+.Forgot a:hover{
+    text-decoration: none;
+}
+button{
+    background-color: #eb5f76;
+    padding: 5px;
+    border: 1px solid #ec4d68;
+    border-radius: 5px;
+    width: 100%;
+    color: #fff;
+    font-size: large;
+}
+button:hover{
+    background-color: #ec4d68;
+}
+.signup{
+    margin-top: 20px;
+    text-align: center;
+}
+.signup a{
+    color: #ec4d68;
+}
+.signup a:hover{
+    text-decoration: none;
+}
