@@ -314,7 +314,7 @@ const wishFun = (valueID) => {
   alert("💕 Craving saved! You can check it out anytime.")
   var addon_products = wish.find((a) => a.id === valueID)
   if(addon_products){
-    addon_products.quantity++
+    addon_products.quantity
   }
   else{
     product.quantity = 1
@@ -373,8 +373,8 @@ function SubmitFun(event){
   var Email = document.getElementById('Email').value;
   var Password = document.getElementById('Password').value;
 
-  if(Email == 'User@123' && Password == 'User'){
-    window.location.href='index.html'
+  if(Email == 'Naveen@123' && Password == 'Naveen'){
+    window.location.href='home.html'
   }
   else{
     document.getElementById("ptag").innerHTML = "inavlid username or password";
